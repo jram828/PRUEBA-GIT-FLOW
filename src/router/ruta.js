@@ -4,4 +4,6 @@ const router = Router();
 
 
 router.get("/mostrarmensaje/:mensaje",mensajeControllers);
+router.post("/mostrarmensaje/:mensaje",mensajeControllers);
+
 module.exports = router;
