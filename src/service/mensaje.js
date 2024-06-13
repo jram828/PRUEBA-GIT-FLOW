@@ -3,4 +3,10 @@ const mensajeService = (mensaje) => {
 
     return mensaje;
 }
-module.exports = mensajeService;
+
+const gastonService = () =>{
+    return "Estas en la ruta de Gaston"
+}
+module.exports = {mensajeService,
+    gastonService
+}
